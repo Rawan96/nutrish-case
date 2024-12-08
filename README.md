@@ -33,7 +33,6 @@ Before you begin, ensure you have the following installed on your machine:
 
 - **Node.js** (v18 or higher)
 - **TypeScript**
-- A **Vercel account** for deploying the chatbot
 - **Git** for cloning the repository
 
 ### Steps to Set Up:
@@ -48,8 +47,18 @@ Before you begin, ensure you have the following installed on your machine:
 
 2. **Install dependencies**:
    In the project directory, install all necessary dependencies by running:
+
    ```bash
    npm install
+   ```
+
+3. **Start the server**:
+   To start the server, run the following command:
+
+   ```bash
+   npm start
+   Once the server is running, go to the following link in your browser:
+   http://localhost:3000/api/creatine
    ```
 
 ## Approach to the Problem
